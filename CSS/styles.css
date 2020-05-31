@@ -1,0 +1,489 @@
+@charset "UTF-8";
+/*!
+* Start Bootstrap - Freelancer v6.0.3 (https://startbootstrap.com/themes/freelancer)
+* Copyright 2013-2020 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
+*/
+/*!
+ * Bootstrap v4.5.0 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/* Whole Page
+------------------------------------------------------------*/
+
+body {margin: 0; break-after: avoid-page;}
+body {
+  margin: 0;
+  font-family: "Lato";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+	min-width: 992px !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+  display: block;
+}
+
+
+/* NAVIGATION BAR STYLES
+------------------------------------------------------------*/
+#navBar {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+	padding-top: 0.3s;
+	padding-bottom: 0.3s;
+	letter-spacing: 0.0625rem;
+}
+
+#navBar .navbar-brand {
+	font-size: 2em
+}
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+
+/* Nav Bar Shrink When User Scrolls Down */
+nav.navbar.navbar-shrink {
+  min-height: 35px;
+}
+
+nav.navbar-shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.navbar-shrink .navbar-brand {
+  font-size: 25px;
+}
+
+nav.navbar-shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
+#navBar.navbar-shrink {
+	padding-top: 0.6rem;
+	padding-bottom: 0.6rem;
+}
+#navBar.navbar-shrink .navbar-brand {
+	font-size: 1.5em;
+}
+/* End Nav Shrink */
+
+/* Profile
+------------------------------------------------------------*/
+.profile-color {
+  background-color: #E7DFDD !important;
+}
+
+.header-text {
+  color: #333
+}
+
+.profile-picture {
+  width: 20rem;
+  max-width: 50%;
+  height: auto;
+}
+
+.masthead h1 {
+  font-size: 4.5em;
+  line-height: 4rem;
+}
+
+.masthead h2 {
+  font-size: 1.75em;
+  font-family: "Lato";
+}
+
+.masthead h3 {
+  font-size: 1.5em;
+  font-family: "Lato";
+}
+
+.Profile-Underline {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border-top: solid 0.25rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+}
+
+.Dark-Line {
+  border-color: #333;
+}
+
+.masthead hr::after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+  padding: 0 0.25em;
+  content: '';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 2em;
+}
+
+/* Portfolio Section
+------------------------------------------------------------*/
+
+.portfolio .portfolio-item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.portfolio .portfolio-item .portfolio-item-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+.portfolio .portfolio-item .portfolio-item-caption:hover {
+  opacity: 0.8;
+  background-color: #333;
+}
+
+.Star-Underline {
+  max-width: 15rem;
+  text-align: center;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  border-radius: 1rem;
+  width: 7rem;
+  margin: 1rem;
+}
+
+.combine-star-underline {
+  margin: 1.25rem 0 1.5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.combine-star-underline .star-icon {
+  font-size: 2rem;
+}
+
+.portfolio p {
+  font-size: 1.5rem;
+  font-family: "Lato";
+  font-weight: 400;
+  line-height: 2.25rem;
+}
+
+.fa-search-plus {
+  line-height: 72px;
+  font-size: 72px;
+}
+
+.portfolio-picture {
+  max-height: 255.667px;
+  width: 100%;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:   flex;
+}
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Pop Up Window
+------------------------------------------------------------*/
+/* The Modal (background) */
+.pop-up-header {
+  display: inline-block;
+  position: relative;
+}
+
+.close-x {
+  position: absolute;
+  right: 0px;
+}
+
+.pop-up-text {
+  color: #333;
+}
+
+
+/* About Me
+------------------------------------------------------------*/
+
+.about-me-color {
+  background-color: lightgrey;
+}
+
+.about-me-color {
+  color: #333333;
+}
+
+.About-Me-Header {
+    font-size: 3rem;
+    line-height: 2.5rem;
+}
+
+.Black-Line {
+  border-color: #000000
+}
+
+.download-resume {
+  font-size: 1.3rem;
+  line-height: 30px;
+  letter-spacing: 4px;
+}
+
+/* FOOTER
+------------------------------------------------------------*/
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+footer li {line-height: 52px;}
+
+.btn {
+	border-width: 2px;
+	line-height: 2rem;
+	transform: scale(0.87, 1)
+}
+
+
+/* Copywrite and Scroll Up Section
+------------------------------------------------------------*/
+.copyright {
+  background-color: #1a252f;
+}
+
+.scroll-to-top {
+  z-index: 1042;
+  right: 1rem;
+  bottom: 1rem;
+  display: none;
+}
+.scroll-to-top a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: rgba(33, 37, 41, 0.5);
+  line-height: 3.1rem;
+}
+
+.position-fixed {position: fixed !important;}
+.d-block {display: block !important;}
+.rounded {border-radius: 0.5rem !important;}
+
+
+/* Web Safety */
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Body */
+.black_back {
+  background-color: #303030;
+}
+
+
+/* Styles */
+.selfie {
+  max-width: 280px;
+  max-height: 250px;
+  padding-top: 210px;
+}
+
+.text {
+  color: white;
+  font-family: sans-serif;
+}
+.caption_text {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.bio_text {
+  max-width: 550px;
+  word-wrap: break-word;
+  font-size: 20px;
+}
+
+.portfolio_text {
+	max-width: 550px;
+  word-wrap: break-word;
+  font-size: 20px;
+	font-family: Verdana;
+}
+
+.comment_box_text {
+  font-size: 17px;
+	font-family: sans-serif;
+}
+
+.edit_text {
+  font-size: 14px;
+	font-family: Verdana;
+	padding-bottom: 20px;
+}
+
+.fancy_input {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 1em 1em 1em 1em;
+	top: 0;
+  bottom: 0;
+}
+
+.black {
+  color: black;
+}
+
+.CV_section_text {
+  font-size: 1.4em;
+}
+
+
+/* Helpers */
+.center{
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+}
+
+.space {
+  padding: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.white_sheet {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 0px;
+  padding: 1em 1em 1em 1em;
+  margin: 0% 20%;
+  top: 0;
+  bottom: 0;
+  max-height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  position: absolute;
+}
+
+.show_apps{
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.pic_size{
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.box {
+  background-color: #21d190;
+  background-image: linear-gradient(315deg, #21d190 0%, #d65bca 74%);
+  color: purple;
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 1em 1em 1em 1em;
+  max-width: 500px;
+  margin: auto;
+}
+
+.home_page_box {
+  background-color: #333;
+  color: white;
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 0em 1em 1em 1em;
+  margin: 10% 25% 10%;
+}
+
+.title_box {
+  color: purple;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: lightgrey;
+  font-size: 30;
+}
+
+.tighten_width{
+  margin-left: 10%;
+  margin-right: 10%;
+}

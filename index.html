@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Favicon-->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <!-- Font Awesome icons (free version)-->
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+
+  <!-- Title and My Additions -->
+  <title> Samuel Solomon Homepage </title>
+  <link rel="stylesheet" href="CSS/styles.css"/>
+  <script src="JavaScript/scripts.js" type="module"></script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-36S04LEFPD"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-36S04LEFPD');
+	</script>
+</head>
+
+<!-- Start of Code (what is displayed) -->
+<body id="page-top">
+  <!-- From Bootstrap's website: jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+
+  <!-- Navigation Bar Start -->
+  <nav id="navBar" class="navbar navbar-expand-lg text-uppercase fixed-top navbar-dark bg-dark" role="navigation">
+    <!-- Hamburger Drop Down When User Zooms in too Much -->
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Nav Bar Header That is Dispalyed -->
+    <div class="container">
+        <span class="navbar-brand"> Samuel Solomon </span>
+        <div class="collapse navbar-collapse text-white">
+          <ul class = "navbar-nav ml-auto pull-right">
+            <li class = "nav-item mx-0 mx-lg-1"><a class = "nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html"> Samuel Solomon </a></li>
+            <li class = "nav-item mx-0 mx-lg-1"><a class = "nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="cv.html"> Curriculum Vitae </a></li>
+            <li class = "nav-item mx-0 mx-lg-1"><a class = "nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="research.html"> My Research </a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- Navigation Bar End -->
+
+
+  <!-- Header Profile -->
+  <header class="masthead profile-color text-center header-text" style="padding-top: 120px">
+      <div class="container d-flex align-items-center flex-column">
+        <!-- Masthead Avatar Image and Name-->
+        <img class="profile-picture img-fluid mb-5 d-block" src="Photos/avataaars.svg" alt="Samuel Solomon Photo"/>
+        <h1 class="text-uppercase mb-0 pb-3"> Samuel Solomon </h1>
+        <!-- Icon Divider-->
+        <hr class="Profile-Underline Dark-Line">
+        <!-- Masthead Subheading-->
+        <h2 class="font-weight-light mb-2 pt-4"> Caltech PhD Class of 2025 | Medical Engineering | NSF Fellow and  Assistant </h2>
+        <h3 class="font-weight-light mb-5"> MIT Class of 2020 | Chemistry-Biology and Physics | Phi Beta Kappa </h3>
+      </div>
+  </header>
+
+
+  <!-- Portfolio Section -->
+  <section class="portfolio py-5" id="portfolio">
+      <div class="container mb-5">
+        <!-- Header and Star Underlne Underneath -->
+        <h2 class="text-center text-uppercase About-Me-Header mb-0"> Portfolio </h2>
+        <div class="combine-star-underline">
+            <span class="Star-Underline"></span>
+            <span class="star-icon"><i class="fas fa-star"></i></span>
+            <span class="Star-Underline"></span>
+        </div>
+        <!-- Project Pictures -->
+        <div class="row display-flex">
+
+              <!-- Portfolio Item 3-->
+              <div class="col-md-6 col-lg-4 mb-4">
+                  <a type="button" class="portfolio-item mx-auto" data-toggle="modal" data-target="#edit">
+                      <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                          <div class="text-center text-white"><i class="fas fa-search-plus fa-3x">
+                            <p> ViLi Special Needs Website </p>
+                          </i></div>
+                      </div>
+                      <img class="img-fluid portfolio-picture img-responsive" src="Photos/portfolio/cabin.png" alt="Special Need's Website" />
+                  </a>
+              </div>
+              <!-- Modal Pop Up Item 3-->
+              <div class="modal fade mfp-hide" id="edit" tabindex="-1" role="dialog" aria-labelledby="Modal-edit-Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <!-- Header and Close Button 'X' -->
+                      <div class="d-flex text-justify">
+                        <h2 class="text-center ml-auto mr-auto text-uppercase pt-3 pop-up-header" id="Modal-edit-Title"> ViLi </h2>
+                        <button type="button" class="btn portfolio-modal-dismiss close-x pull-right" data-dismiss="modal">
+                          <i class="fa fa-2x fa-times"></i>
+                        </button>
+                      </div>
+                    <!-- Description -->
+                    <div class="modal-body pt-2">
+                      <p class="mb-5 text-center pop-up-text"> Content </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Portfolio Item 2-->
+              <div class="col-md-6 col-lg-4 mb-4">
+                  <a type="button" class="portfolio-item mx-auto" data-toggle="modal" data-target="#ViLi">
+                      <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                          <div class="text-center text-white"><i class="fas fa-search-plus fa-3x">
+                            <p> ViLi Special Needs Website </p>
+                          </i></div>
+                      </div>
+                      <img class="img-fluid portfolio-picture img-responsive" src="Photos/portfolio/cabin.png" alt="Special Need's Website" />
+                  </a>
+              </div>
+              <!-- Modal Pop Up Item 2-->
+              <div class="modal fade mfp-hide" id="ViLi" tabindex="-1" role="dialog" aria-labelledby="Modal-Vili-Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <!-- Header and Close Button 'X' -->
+                      <div class="d-flex text-justify">
+                        <h2 class="text-center ml-auto mr-auto text-uppercase pt-3 pop-up-header" id="Modal-Vili-Title"> ViLi </h2>
+                        <button type="button" class="btn portfolio-modal-dismiss close-x pull-right" data-dismiss="modal">
+                          <i class="fa fa-2x fa-times"></i>
+                        </button>
+                      </div>
+                    <!-- Description -->
+                    <div class="modal-body pt-2">
+                      <p class="mb-5 text-center pop-up-text"> Content </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Portfolio Item 1-->
+              <div class="col-md-6 col-lg-4 mb-4">
+                  <a type="button" class="portfolio-item mx-auto" data-toggle="modal" data-target="#Mind-Network">
+                      <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                          <div class="text-center text-white"><i class="fas fa-search-plus fa-3x">
+                            <p> Mind Network: Online Physics Education Platform </p>
+                          </i></div>
+                      </div>
+                      <img class="img-fluid portfolio-picture img-responsive" src="Photos/portfolio/Mind_Network.png" alt="Special Need's Website" />
+                  </a>
+              </div>
+              <!-- Modal Pop Up Item 1-->
+              <div class="modal fade mfp-hide" id="Mind-Network" tabindex="-1" role="dialog" aria-labelledby="Modal-Mind-Network-Title" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <!-- Header and Close Button 'X' -->
+                      <div class="d-flex text-justify">
+                        <h2 class="text-center ml-auto mr-auto text-uppercase pt-3 pop-up-header" id="Modal-Mind-Network-Title"> ViLi </h2>
+                        <button type="button" class="btn portfolio-modal-dismiss close-x pull-right" data-dismiss="modal">
+                          <i class="fa fa-2x fa-times"></i>
+                        </button>
+                      </div>
+                    <!-- Description -->
+                    <div class="modal-body pt-2">
+                      <p class="mb-5 text-center pop-up-text"> Content </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Portfolio Lists -->
+          </div>
+      </div>
+  </section>
+
+
+  <!-- About Me Section -->
+  <section class="about-me-color mb-0 pb-2 pt-2" id="aboutMe">
+    <div class="container pt-5 pb-5">
+      <h2 class="About-Me-Header text-center text-uppercase pt-3"> About Me </h2>
+      <hr class="Profile-Underline Black-Line mb-5 mt-4">
+      <div class="row" id="resume">
+        <div class="col-lg-4 ml-auto text-justify">
+            <p class="lead"> Hello! My name is Samuel Solomon and welcome to my first webpage (under construction!).
+              While I am not studying, I enjoy diving, hiking, and most importantly (though rarely)
+              sleeping (I know, what a thought ;p). </p>
+        </div>
+        <div class="col-lg-4 mr-auto text-justify">
+            <p class="lead"> Hello! My name is Samuel Solomon and welcome to my first webpage (under construction!).
+              While I am not studying, I enjoy diving, hiking, and most importantly (though rarely)
+              sleeping (I know, what a thought ;p). </p>
+        </div>
+      </div>
+      <div class="text-center mt-5 pt-1 pb-1 about-me-color ">
+        <a class="btn btn-xl btn-outline-dark download-resume px-5 py-3" href="Resume\Samuel Solomon Resume, 2020.pdf" download="">
+          <i class="fas fa-download mr-2"></i>
+          <span> Download my resume </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer-->
+  <footer class="footer text-center">
+      <div class="container">
+          <div class="row justify-content-md-center">
+              <!-- Footer Contact Mesage -->
+              <div class="col-md-4 mb-2 mb-lg-0">
+                  <h2 class="text-uppercase"> Contact Me </h2>
+                  <p class="lead mb-4 mt-4 pt-0"> Feel free to send me an email, view my GitHub, or add me on LinkedIn. </p>
+                  <!-- Social Media Icons -->
+                  <ul class="list-inline mb-0">
+                    <!-- Email -->
+                    <li class="list-inline-item mr-4 ml-4">
+                      <a class="btn btn-outline-light btn-social text-center rounded-circle" href="mailto:solomons@mit.edu">
+                      <i class="fas fa-fw fa-envelope fa-lg"> </i> </a>
+                    </li>
+                    <!-- Github -->
+                    <li class="list-inline-item mr-4 ml-4">
+                      <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/Samwich1998">
+                      <i class="fab fa-fw fa-github fa-lg"> </i> </a>
+                    </li>
+                    <!-- LinkedIn -->
+                    <li class="list-inline-item mr-4 ml-4">
+                      <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/samuel-solomon/">
+                      <i class="fab fa-fw fa-linkedin-in fa-lg"> </i> </a>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+
+  <!-- Copyright Section-->
+  <div class="copyright py-4 text-center text-white">
+      <div class="container"><small>Copyright © Samuel Solomon
+          <!-- Generate Current Date -->
+          <script type="text/javascript">document.write(new Date().getFullYear());</script></small>
+        </small></div>
+  </div>
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
+  <div class="scroll-to-top d-lg-none position-fixed">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a>
+  </div>
+
+
+  <!-- Bootstrap core JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+  <!-- Third party plugin JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+</body>
+</html>
