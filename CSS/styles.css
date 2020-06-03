@@ -46,6 +46,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
 
+img {page-break-inside: avoid;}
+
 
 /* NAVIGATION BAR STYLES
 ------------------------------------------------------------*/
@@ -200,7 +202,7 @@ nav.navbar-shrink .navbar-toggle {
   font-size: 2rem;
 }
 
-.portfolio p {
+.portfolio-hover-text {
   font-size: 1.5rem;
   font-family: "Lato";
   font-weight: 400;
@@ -213,8 +215,9 @@ nav.navbar-shrink .navbar-toggle {
 }
 
 .portfolio-picture {
-  max-height: 255.667px;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
 }
 
 .row {
@@ -235,6 +238,8 @@ nav.navbar-shrink .navbar-toggle {
 .pop-up-header {
   display: inline-block;
   position: relative;
+  color: #2C3E50;
+  font-size: 2rem;
 }
 
 .close-x {
@@ -244,6 +249,11 @@ nav.navbar-shrink .navbar-toggle {
 
 .pop-up-text {
   color: #333;
+  font-size: 1.15rem;
+}
+
+.modal-dialog {
+  max-width: 700px;
 }
 
 
