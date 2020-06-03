@@ -247,6 +247,10 @@ nav.navbar-shrink .navbar-toggle {
   right: 0px;
 }
 
+.pop-up-image {
+  max-width: 200px;
+}
+
 .pop-up-text {
   color: #333;
   font-size: 1.15rem;
