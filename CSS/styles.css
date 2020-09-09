@@ -14,7 +14,7 @@
 /* Whole Page
 ------------------------------------------------------------*/
 
-body {margin: 0; break-after: avoid-page;}
+body {break-after: avoid-page;}
 body {
   margin: 0;
   font-family: "Lato";
@@ -329,6 +329,41 @@ footer li {line-height: 52px;}
 .rounded {border-radius: 0.5rem !important;}
 
 
+/* CV/Resume Section */
+.tighten_width{
+  margin-left: 19.5%;
+  margin-right: 19.5%;
+}
+
+.pull_Left {
+  float: left;
+}
+
+.pull_Right {
+  float: right;
+}
+
+.section_Divider {
+  padding: 0;
+  text-align: center;
+  border-top: solid 0.125rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.Dark-Line {
+  border-color: #333;
+}
+
+.Light-Line {
+  border-color: #333;
+  opacity: 0.5;
+}
+
+
 /* Web Safety */
 @media (min-width: 576px) {
   .container {
@@ -495,9 +530,4 @@ footer li {line-height: 52px;}
   padding: 10px;
   background-color: lightgrey;
   font-size: 30;
-}
-
-.tighten_width{
-  margin-left: 10%;
-  margin-right: 10%;
 }
